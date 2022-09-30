@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feby Angelia</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header class="bg-stone-400 px-28">
+        <nav class="flex flex-wrap">
+            <div class="basis-0 grow ">
+                <h1 class="py-5 lg:text-left text-center">Feby Angelia</h1>
+            </div>
+            <div class="grow py-5 lg:text-right text-center">
+                <a href="#home">Home -</a> 
+                <a href="#about">About -</a> 
+                <a href="#education">Education -</a> 
+                <a href="#experience">Experience -</a>  
+                <a href="#organizations">Organizations -</a> 
+                <a href="#contactme">Contact Me</a>
+            </div>
+        </nav>
+    </header>
+    
+    <section id="home" class="lg:px-28 px:6 justify-center">
+        <div class="grid grid-cols-2 p-2.5 gap-2.5">
+            <div class="p-5 text-3xl text-center items-center my-auto">
+                <article>
+                    <p>English Literature Student</p>
+                    <p>Semarang,Indonesia</p>
+                </article>
+            </div>
+            <div class="p-5 text-3xl text-center">
+                <figure>
+                    <img src="img\febyangelia.jpg" width="300" />
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="flex justify-center px-28 text-center bg-white py-12">
+        <article>
+            <h2>About</h2>
+            <p>Hi there! Its Feby. English Literature student at Stikubank University Semarang. 
+            I'm a responsible person, hard-working, and always used my time to do something better such as studying, making a novel, and traveling.</p>
+        </article>
+    </section>
+
+    <section id="education" class="flex justify-center px-28 text-center">
+        <article>
+            <h2>Education</h2>
+            <h4>Stikubank University</h4>
+            <p>majoring English Literature (2020-present)</p>
+            <h4>6 Vocational High School Semarang</h4>
+            <p>majoring Hospitality Industry (2017-2020)</p>
+        </article>
+    </section>
+        
+    <section id="experience" class="flex justify-center px-28 text-center py-12 bg-white">
+        <article>
+            <h2>Experience</h2>
+            <h4>Room Attendant Trainee</h4>
+            <p>Gumaya Tower Hotel Semarang-Internship</p>
+        </article>
+    </section>
+       
+    <section id="organization" class="flex justify-center px-28 text-center">
+        <article>
+            <h2>Organizations</h2>
+            <h4>Director</h4>
+            <p>English Student Association UNISBANK 2021/2022</p>
+            <h4>Human Resource Divison</h4>
+            <p>English Student Association UNISBANK 2020/2021</p>
+        </article>
+    </section>
+
+    <section id="contactme" class="justify-center text-center bg-slate-700 py-6">
+        <h2 class="text-white">Contact Me</h2>
+    <form action="/action_page.php" method="get">
+        <label for="fname" class="text-white">Full Name:</label>
+        <input type="text" id="fname" name="fname" /><br /><br />
+        <label for="email" class="text-white">Email:</label>
+        <input type="text" id="email" name="email" /><br /><br />
+        <label for="message" class="text-white">Message:</label>
+        <br />
+        <textarea id="message" rows="5" cols="50">
+    Write your message here.</textarea>
+    </form>
+    </section>
+    <footer class="text-center">
+        &copy;2022 Feby Angelia
+    </footer>    
+</html>
